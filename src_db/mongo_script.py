@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-conn = MongoClient("mongodb://localhost")
+conn = MongoClient("mongodb://172.17.0.2:27017/")
 db = conn["library"]
 collection = db["books"]
 
